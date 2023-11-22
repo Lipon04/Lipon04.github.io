@@ -1,0 +1,80 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E5E5E5;
+}
+.main-container
+{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1000px;
+    background-color: rgb(213, 213, 213);
+    margin: 40px auto;
+    
+}
+.main-cont-section
+{
+    padding: 40px 90px;
+}
+.about-me-profession {
+    font-size: 50px;
+    font-weight: 70;
+    color: #000;
+}
+.sidebar
+{
+    background-color: rgb(165, 10, 10);
+    padding: 40px 0px;
+    width: 310px;
+
+flex-shrink: 0;
+}
+.contacts
+{ margin: 50px 0 0 70px;
+ }
+.tech
+{
+    margin: 50px 0 0 60px;
+}
+.soft
+{
+    margin: 50px 0 0 60px;
+}
+.sidebar-title
+{
+color: #ffffff;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 20px;
+padding-left: 30px;
+}
+.contacts-type
+{
+    color: #ffffff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 171.429% */
+    padding: 0 0 0 28px;
+}
+.contacts-link
+{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+}
+.skills-list
+{
+    padding: 0 0 0 70px;
+    color:#FFF;
+    font-size: 20px;
+}
+.photo
+{
+width: 310px;
+height: 270px;
+flex-shrink: 0;
+}
